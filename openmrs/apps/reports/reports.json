@@ -1459,5 +1459,26 @@
     "config": {
         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/cervical_cancer_pivot.sql/"
     }
+},
+"ART_Export_Demographics": {
+    "name": "ART Export",
+    "type": "MRSGeneric",
+    "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ART_Export.sql/"
+    }
+},
+"HTS_RAPID_TEST_Export_Demographics": {
+    "name": "HTS_RAPID_TEST Export",
+    "type": "MRSGeneric",
+    "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/HTS_Export_RAPID_TEST.sql/"
+    }
+},
+"HTS_SELF_TEST_Export_Demographics": {
+    "name": "HTS_SELF_TEST Export",
+    "type": "MRSGeneric",
+    "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/HTS_Export_SELF_TEST.sql/"
+    }
 }
 }
